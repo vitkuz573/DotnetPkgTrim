@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PkgTrim.Tool": {
+      "commandName": "Project",
+      "commandLineArgs": "--sln-dir=C:\\Users\\vitaly\\source\\repos\\RemoteMaster --fix"
+    }
+  }
+}
