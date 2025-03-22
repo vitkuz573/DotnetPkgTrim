@@ -15,12 +15,7 @@ internal class Program
         var solutionDirectoryOption = new Option<string>("--solution-directory", "--sln-dir")
         {
             Description = "Path to the solution directory. If not provided, the directory of the executable is used.",
-            DefaultValueFactory = _ =>
-            {
-                var dir = Directory.GetParent(AppContext.BaseDirectory)?.FullName;
-                
-                return dir ?? throw new InvalidOperationException("Cannot determine default solution directory.");
-            }
+            DefaultValueFactory = _ => Directory.GetCurrentDirectory()
         };
 
         var fixOption = new Option<bool>("--fix")
