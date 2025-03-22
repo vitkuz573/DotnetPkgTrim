@@ -6,6 +6,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
+    <Authors>Vitaly Kuzyaev</Authors>
+    <Description>CLI tool to remove unused PackageVersion entries from Directory.Packages.props</Description>
+    <Version>1.0.0</Version>
+
+    <PackageId>pkg-trim</PackageId>
+
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>pkg-trim</ToolCommandName>
     <PackageOutputPath>./nupkg</PackageOutputPath>
