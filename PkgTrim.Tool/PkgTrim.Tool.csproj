@@ -6,6 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+
     <Authors>Vitaly Kuzyaev</Authors>
     <Description>CLI tool to remove unused PackageVersion entries from Directory.Packages.props</Description>
     <Version>1.0.0</Version>
