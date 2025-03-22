@@ -11,7 +11,7 @@
 
     <Authors>Vitaly Kuzyaev</Authors>
     <Description>CLI tool to remove unused PackageVersion entries from Directory.Packages.props</Description>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
 
     <PackageId>pkg-trim</PackageId>
 
